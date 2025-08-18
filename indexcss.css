@@ -1,0 +1,82 @@
+*{margin: 0}
+body{
+  background-color: beige;
+}
+.header-spanish{
+ 
+ background: linear-gradient(to bottom,red,red, yellow, red,red);
+
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+}
+.center-section{
+
+  display: flex;
+  position: relative;
+  margin-right: 100px;
+  
+}
+.alive-text {
+  padding: 0 0 0 270px;
+  font-size: 3.5rem;               
+  color: yellow;                   
+  font-weight: 900;              
+  font-family: 'Orbitron', sans-serif; 
+  letter-spacing: 2px;             
+  text-transform: uppercase;      
+  text-shadow: 
+    0 0 10px gold,
+    0 0 20px orange,
+    0 0 40px red;              
+}
+
+.blanc-space{
+  height: 200px;position: relative;
+}
+.recap-section{
+  top: 60%;
+  height: 200px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.thank-you-message{
+  color: blue;position: absolute;
+  left: 32%;top: 20%;
+  font-size: 36px;font-weight: 1000;font-style: italic;
+}
+
+
+
+.click-me-button{
+  height: fit-content;
+  position: absolute;top: 70%;left: 40%;background-color: pink;padding: 9px;
+  color: black;border-radius: 30px;text-decoration: none;font-size: 50px;
+}
+/***********************************************************************/
+.gallery{
+  display: flex;gap: 10px;margin: 100px 0 ;left: 15%;position: relative;
+}
+.gallery img{
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  transition: all 0.4s ease-out;
+}
+.gallery img:hover{
+    width: 390px;
+}
+
+
