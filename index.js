@@ -3,7 +3,7 @@ document.querySelector('.gallery-images-present').addEventListener('click',funct
 })
 
 document.querySelector('.gallery-images-past').addEventListener('click',function(){
-            window.location.href = "https://google.com"; 
+            window.location.href = "elpreteritoindifinido.html"; 
 })
 
 
@@ -16,4 +16,16 @@ document.querySelector('.gallery-images-futur').addEventListener('click',functio
 
 document.querySelector('.gallery-images-perfecto').addEventListener('click',function(){
             window.location.href = "https://google.com"; 
+})
+
+document.querySelector('.gallery-images-imperfecto').addEventListener('click',function(){
+            window.location.href = "elimperfecto.html"; 
+})
+
+document.querySelector('.gallery-images-perfecto').addEventListener('click',function(){
+            window.location.href = "elpreteritoperfecto.html"; 
+})
+
+document.querySelector('.gallery-images-propos').addEventListener('click',function(){
+            window.location.href = "laspropos.html"; 
 })
