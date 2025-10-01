@@ -29,3 +29,6 @@ document.querySelector('.gallery-images-perfecto').addEventListener('click',func
 document.querySelector('.gallery-images-propos').addEventListener('click',function(){
             window.location.href = "laspropos.html"; 
 })
+document.querySelector('.gallery-images-producciones').addEventListener('click',function(){
+            window.location.href = "producciones.html"; 
+})
