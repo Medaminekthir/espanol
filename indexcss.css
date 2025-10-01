@@ -2,81 +2,169 @@
 body{
   background-color: beige;
 }
+body::-webkit-scrollbar{
+ display: none;
+}
+/*************************************************************************HEADER*******************************/
 .header-spanish{
- 
- background: linear-gradient(to bottom,red,red, yellow, red,red);
-
+  background: linear-gradient(to bottom,red,red, yellow, red,red);
   color: white;
-  padding-left: 15px;
-  padding-right: 15px;
-
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-
-  position: relative;
+  justify-content: center;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 150px;
+  height: 5rem;
+  z-index: 1000;
+  width: 100%;
+  box-sizing: border-box;
 }
 .center-section{
+position: relative;
+display: flex;flex-direction: row;justify-content: center;align-items: center;
 
-  display: flex;
-  position: relative;
-  margin-right: 100px;
-  
+
 }
-.alive-text {
-  padding: 0 0 0 270px;
-  font-size: 3.5rem;               
-  color: yellow;                   
-  font-weight: 900;              
-  font-family: 'Orbitron', sans-serif; 
-  letter-spacing: 2px;             
-  text-transform: uppercase;      
-  text-shadow: 
+.alive-text{
+    position: relative;
+    top: 0.5rem;
+    text-shadow: 
     0 0 10px gold,
     0 0 20px orange,
-    0 0 40px red;              
+    0 0 40px red;  
+    color: yellow;   
+    font-size: 3.5rem; 
+    font-family: 'Orbitron', sans-serif;   
+    text-transform: uppercase;        
 }
+
+@media (max-width: 430px) {
+  .alive-text {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+
+
+
 
 .blanc-space{
-  height: 200px;position: relative;
+  height: 1rem;
+  position: relative;
+  top: 5rem;
+  
 }
+
 .recap-section{
-  top: 60%;
-  height: 200px;
+  top: 5rem;
+  z-index: 1;
+  width: 100%;
+  height: 15rem;
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+ 
+ 
+  
+  
 }
+
 .thank-you-message{
-  color: blue;position: absolute;
-  left: 32%;top: 20%;
-  font-size: 36px;font-weight: 1000;font-style: italic;
+  color: blue;
+  position: relative;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 30px;
+  
+ 
 }
 
 
-
+.div-click-btn-thank{
+  position: relative;
+  
+}
 .click-me-button{
-  height: fit-content;
-  position: absolute;top: 70%;left: 40%;background-color: pink;padding: 9px;
-  color: black;border-radius: 30px;text-decoration: none;font-size: 50px;
+ 
+  height:2rem;width: 4rem;
+  position:relative;
+  background-color: pink;
+  padding: 1rem;
+  border-radius: 30px 0;
+  font-size: 40px;font-style: italic;
+  text-decoration: none;
+  
 }
-/***********************************************************************/
+
+
+.gallery-title{
+   background: linear-gradient(to right,orange,green ,orange);
+    top: 3rem;
+    position: relative;
+    height: 5.2rem;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+
+.title{
+  font-size: 2rem;
+  color: white;
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.gallery-container{
+ top:5rem;
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+
+
+}
+
 .gallery{
-  display: flex;gap: 10px;margin: 100px 0 ;left: 15%;position: relative;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 19rem);
+  gap: 1rem;
+
 }
-.gallery img{
-  width: 300px;
-  height: auto;
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(2, 19rem);
+  }
+}
+@media (max-width: 430px) {
+  .gallery {
+    grid-template-columns: repeat(1, 19rem);
+  }
+}
+
+.tiempos{
   border-radius: 20px;
-  transition: all 0.4s ease-out;
+  height: 13rem;
+  width: 19rem;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px grey;
+  display: flex;
+  justify-content: center;align-items: center;
+  text-transform: uppercase;
+  font-size: larger;
+  font-weight: 900;
+  font-style: italic;
 }
-.gallery img:hover{
-    width: 390px;
-}
-
-
