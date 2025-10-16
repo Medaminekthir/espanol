@@ -32,3 +32,25 @@ document.querySelector('.gallery-images-propos').addEventListener('click',functi
 document.querySelector('.gallery-images-producciones').addEventListener('click',function(){
             window.location.href = "producciones.html"; 
 })
+document.querySelector('.gallery-images-lasfiestas').addEventListener('click',function(){
+            window.location.href = "lasfiestas.html"; 
+})
+document.querySelector('.gallery-images-pruebauno').addEventListener('click',function(){
+            window.location.href = "pruebauno.html"; 
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
