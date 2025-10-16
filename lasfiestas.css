@@ -1,0 +1,174 @@
+ *{
+        font-weight: bolder;
+        text-transform: uppercase;
+  }
+body{
+      background-color: beige;
+      display: flex;flex-direction: column;
+}
+body::-webkit-scrollbar {
+     display: none;
+}
+
+
+.the-elpresente-header{
+  display: flex;justify-content: center;align-items: center;
+  margin-top: 2rem;
+  
+    
+}
+.title-header{
+  border-radius: 20px;
+  height: 10rem;
+  width: 27rem;
+  text-decoration: underline grey 2px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px grey;
+  display: flex;
+  justify-content: center;align-items: center;
+  text-transform: uppercase;
+  font-size: larger;
+  font-weight: 900;
+  font-style: italic;
+}
+.side-titles{
+  font-size: 2rem;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 0.5rem;
+  margin: 1rem;
+  box-shadow: 5px 5px 5px grey;
+    
+
+}
+
+
+.item.title{
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.redspan{
+
+    color: red;
+}
+.container {
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  gap: 0px;
+ 
+  
+      
+   
+}
+
+.item-container{
+
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid grey;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+    
+  
+}
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 22px;
+  
+ 
+
+}
+
+@media (max-width: 424px) {
+  .container {
+    flex-direction: column;
+  }
+  
+}
+
+
+
+.LOS-MARCADORES-TEMPORALES{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content:center;
+    align-items: center;
+    font-size: 36px;
+    
+}
+.videoposter1{
+
+  height: 100%;
+  background: url(lasfallas.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.videoposter2{
+
+  height: 100%;
+  background: url(lossanfermines.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.videoposter3{
+
+  height: 100%;
+  background: url(laferiadeabril.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.videoposter4{
+
+  height: 100%;
+  background: url(latomatia.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.videoposter6{
+
+  height: 100%;
+  background: url(lasemanasanta.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.firstline{
+
+  height: auto;
+}
+
+.ytlinks{
+  color: none;
+  opacity: 0;
+  color: transparent;
+   color: none;
+ 
+}

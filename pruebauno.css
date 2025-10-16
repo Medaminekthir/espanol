@@ -1,0 +1,280 @@
+ *{
+        font-weight: bolder;
+       
+  }
+body{
+      background-color: beige;
+      display: flex;flex-direction: column;
+}
+body::-webkit-scrollbar {
+     display: none;
+}
+/********************************* header file title****************/
+.the-elpresente-header{
+  display: flex;justify-content: center;align-items: center;
+  margin-top: 2rem;   
+}
+.title-header{
+  border-radius: 20px;
+  height: 13rem;
+  width: 19rem;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px grey;
+  display: flex;
+  justify-content: center;align-items: center;
+  text-transform: uppercase;
+  font-size: larger;
+  font-weight: 900;
+  font-style: italic;
+}
+/************************/
+.side_titles{
+  font-size: 2rem;
+  font-weight: bolder;
+  font-style: italic;
+  margin-left: 9rem;
+  border-radius: 20px;
+  
+}
+/*****************************text settings**********/
+
+.textcontainer {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: auto;  
+}
+.itemtext{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  font-size: 1.3em;
+  overflow:hidden;
+  position: relative;
+  line-height: 2;
+}
+/****************/
+
+/******************************* true or false statements***********************/
+
+.containervof {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: auto;  
+}
+
+.itemcontainer1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 25%;
+  justify-content: end;
+  padding: 10px 10px;
+  width:100%;
+  height: 20rem;
+ position: relative;
+  
+}
+.itemcontainer2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  right: 25%;
+  padding: 10px 10px;
+  width:100%;
+  height: 20rem;
+ position: relative;
+  
+}
+.itemvof{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  font-size: 1.3em;
+  overflow:hidden;
+  flex: 1;
+  width: 22rem;
+  position:relative;
+  border-left:grey solid 1px ;
+  
+}
+/*******************************/
+
+
+
+.LOS-MARCADORES-TEMPORALES{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content:center;
+    align-items: center;
+    font-size: 36px;
+    
+}
+
+@media (max-width: 424px) {
+  .container {
+    flex-direction: column;
+  }
+  
+}
+/************************************* comprension 2**************************/
+
+.containerq2 {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+  height: auto;  
+}
+
+.itemcontainer3{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 10px 10px;
+  width: 25%;
+  height: auto;
+  position:relative;
+  border-top: grey 1px solid;
+  border-bottom: grey 1px solid;
+  
+}
+.itemcontainer4{
+
+  display: grid;
+  grid-template-columns: 1fr ;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  width: 33%;
+  height: auto;
+  border-top: grey 1px solid;
+  border-bottom: grey 1px solid;
+
+
+  
+}
+.itemq2{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  font-size: 1.3em;
+  overflow:hidden;
+  flex: 1;
+  
+}
+/***********************el texto dots************************/
+.containersegun {
+   padding: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;   
+  letter-spacing: 6px;
+  justify-content: center;
+}
+/******************************sinonimos***************************/
+.containersinonios {
+   padding: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;   
+  justify-content: center;
+  font-size: 1.4em;
+}
+/***********************palabras*********************/
+.containerpalabras {
+   padding: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;   
+ position:relative;
+ left: 20%;
+  font-size: 1.4em;
+}
+/**************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: green solid 2px;
+  height: 39rem;  
+}
+
+.item-container{
+
+  display: grid;
+  grid-template-columns: 1fr ;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  width: 100%;
+  height: 20rem;
+  border: red solid 2px;
+}
+.item{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  font-size: 1.3em;
+  overflow:hidden;
+  flex: 1;
+  
+}
+  ****/
+
+
